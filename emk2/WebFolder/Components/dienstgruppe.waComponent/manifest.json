@@ -1,6 +1,0 @@
-﻿{
-    "name"    : "dienstgruppe",    
-    "html"    : "dienstgruppe.html",
-    "styles"  : ["dienstgruppe.css"],
-    "scripts" : ["dienstgruppe.js"]
-}
