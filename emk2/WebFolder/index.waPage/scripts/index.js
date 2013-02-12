@@ -1,5 +1,6 @@
 ﻿
 WAF.onAfterInit = function onAfterInit() {// @lock
+					
 
 // @region namespaceDeclaration// @startlock
 	var login1 = {};	// @login
@@ -7,7 +8,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	var menuItem2 = {};	// @menuItem
 	var menuItem1 = {};	// @menuItem
 // @endregion// @endlock
-
+		
 // eventHandlers// @lock
 
 	login1.logout = function login1_logout (event)// @startlock
@@ -22,14 +23,13 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 
 	documentEvent.onLoad = function documentEvent_onLoad (event)// @startlock
 	{// @endlock
+
+		 Version = "1.0";
+		source.Version.sync();
 		
-		kommArray = [art];
-		kommArray.push({art: 'Telefon'});
-		kommArray.push({art: 'Mobile'});
-		kommArray.push({art: 'Fax'});
-		kommArray.push({art: 'Telefon geschäftlich'});
-		kommArray.push({art: 'Telefon sonstiges'});
-		WAF.sources.kommArray.sync();
+		
+
+		
 	};// @lock
 
 	menuItem2.click = function menuItem2_click (event)// @startlock
