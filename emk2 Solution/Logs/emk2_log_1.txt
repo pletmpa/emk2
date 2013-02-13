@@ -455,3 +455,17 @@
 2013-02-13 09:45:08 [com.wakanda-software.emk2.emk2] INFO - Opening the database
 2013-02-13 09:45:08 [com.wakanda-software.emk2.emk2] INFO - Successfully opened journal
 2013-02-13 09:45:08 [com.wakanda-software.emk2.emk2] INFO - Database opened (duration: 15 ms)
+2013-02-13 22:20:17 [com.wakanda-software.emk2] INFO - Stopping the solution
+2013-02-13 22:20:17 [com.wakanda-software.emk2.emk2] INFO - Stopping the project
+2013-02-13 22:20:19 [com.wakanda-software.emk2.emk2] INFO - Project stopped (duration: 2099 ms)
+2013-02-13 22:20:19 [com.wakanda-software.emk2.ServerAdmin] INFO - Stopping the project
+2013-02-13 22:20:21 [com.wakanda-software.emk2.ServerAdmin] INFO - Project stopped (duration: 2055 ms)
+2013-02-13 22:20:21 [com.wakanda-software.emk2] INFO - Solution stopped (duration: 4156 ms)
+2013-02-13 22:20:21 [com.wakanda-software.emk2] INFO - Closing the solution
+2013-02-13 22:20:21 [com.wakanda-software.emk2.emk2] INFO - Closing the project
+2013-02-13 22:20:21 [com.wakanda-software.emk2.emk2] INFO - Closing the database
+2013-02-13 22:20:22 [com.wakanda-software.emk2.emk2] INFO - Database closed (duration: 430 ms)
+2013-02-13 22:20:22 [com.wakanda-software.emk2.emk2] INFO - Project closed (duration: 434 ms)
+2013-02-13 22:20:22 [com.wakanda-software.emk2.ServerAdmin] INFO - Closing the project
+2013-02-13 22:20:22 [com.wakanda-software.emk2.ServerAdmin] INFO - Project closed (duration: 1 ms)
+2013-02-13 22:20:22 [com.wakanda-software.emk2] INFO - Solution closed (duration: 849 ms)
