@@ -1,0 +1,117 @@
+Compacting auto sequence number definitions on 4 elements
+Compacting auto sequence number definitions - 0/4
+Compacting auto sequence number definitions - 1/4
+Compacting auto sequence number definitions - 2/4
+Compacting auto sequence number definitions - 3/4
+End Compacting auto sequence number definitions
+Compacting data table definitions on 15 elements
+Compacting data table definitions - 0/15
+Compacting data table definitions - 1/15
+Compacting data table definitions - 2/15
+Compacting data table definitions - 3/15
+Compacting data table definitions - 4/15
+Compacting data table definitions - 5/15
+Compacting data table definitions - 6/15
+Compacting data table definitions - 7/15
+Compacting data table definitions - 8/15
+Compacting data table definitions - 9/15
+Compacting data table definitions - 10/15
+Compacting data table definitions - 11/15
+Compacting data table definitions - 12/15
+Compacting data table definitions - 13/15
+Compacting data table definitions - 14/15
+End Compacting data table definitions
+Loading data tables on 0 elements
+Compacting data table headers on 15 elements
+Compacting data table headers - 0/15
+Compacting data table headers - 1/15
+Compacting data table headers - 2/15
+Compacting data table headers - 3/15
+Compacting data table headers - 4/15
+Compacting data table headers - 5/15
+Compacting data table headers - 6/15
+Compacting data table headers - 7/15
+Compacting data table headers - 8/15
+Compacting data table headers - 9/15
+Compacting data table headers - 10/15
+Compacting data table headers - 11/15
+Compacting data table headers - 12/15
+Compacting data table headers - 13/15
+Compacting data table headers - 14/15
+End Compacting data table headers
+End 
+Compacting BLOBs in table Person on 0 elements
+End Compacting BLOBs in table Person
+Compacting records in table Person on 5 elements
+Compacting records in table Person - 0/5
+Compacting records in table Person - 1/5
+Compacting records in table Person - 2/5
+Compacting records in table Person - 3/5
+Compacting records in table Person - 4/5
+End Compacting records in table Person
+Compacting BLOBs in table Adresse on 0 elements
+End Compacting BLOBs in table Adresse
+Compacting records in table Adresse on 1 elements
+Compacting records in table Adresse - 0/1
+End Compacting records in table Adresse
+Compacting BLOBs in table Bankonto on 0 elements
+End Compacting BLOBs in table Bankonto
+Compacting records in table Bankonto on 0 elements
+End Compacting records in table Bankonto
+Compacting BLOBs in table Kirchengliedschaft on 0 elements
+End Compacting BLOBs in table Kirchengliedschaft
+Compacting records in table Kirchengliedschaft on 0 elements
+End Compacting records in table Kirchengliedschaft
+Compacting BLOBs in table Kirchenangehoerigenschaft on 0 elements
+End Compacting BLOBs in table Kirchenangehoerigenschaft
+Compacting records in table Kirchenangehoerigenschaft on 0 elements
+End Compacting records in table Kirchenangehoerigenschaft
+Compacting BLOBs in table Kirchenzugehoerigenschaft on 0 elements
+End Compacting BLOBs in table Kirchenzugehoerigenschaft
+Compacting records in table Kirchenzugehoerigenschaft on 0 elements
+End Compacting records in table Kirchenzugehoerigenschaft
+Compacting BLOBs in table Dienstgruppe on 0 elements
+End Compacting BLOBs in table Dienstgruppe
+Compacting records in table Dienstgruppe on 0 elements
+End Compacting records in table Dienstgruppe
+Compacting BLOBs in table Organisation on 0 elements
+End Compacting BLOBs in table Organisation
+Compacting records in table Organisation on 0 elements
+End Compacting records in table Organisation
+Compacting BLOBs in table Organisationstyp on 0 elements
+End Compacting BLOBs in table Organisationstyp
+Compacting records in table Organisationstyp on 0 elements
+End Compacting records in table Organisationstyp
+Compacting BLOBs in table Gemeindeatlas on 0 elements
+End Compacting BLOBs in table Gemeindeatlas
+Compacting records in table Gemeindeatlas on 0 elements
+End Compacting records in table Gemeindeatlas
+Compacting BLOBs in table Konto on 0 elements
+End Compacting BLOBs in table Konto
+Compacting records in table Konto on 0 elements
+End Compacting records in table Konto
+Compacting BLOBs in table Kassenbuch on 0 elements
+End Compacting BLOBs in table Kassenbuch
+Compacting records in table Kassenbuch on 0 elements
+End Compacting records in table Kassenbuch
+Compacting BLOBs in table Gottesdienst on 0 elements
+End Compacting BLOBs in table Gottesdienst
+Compacting records in table Gottesdienst on 0 elements
+End Compacting records in table Gottesdienst
+Compacting BLOBs in table Kommunikation on 0 elements
+End Compacting BLOBs in table Kommunikation
+Compacting records in table Kommunikation on 6 elements
+Compacting records in table Kommunikation - 0/6
+Compacting records in table Kommunikation - 1/6
+Compacting records in table Kommunikation - 2/6
+Compacting records in table Kommunikation - 3/6
+Compacting records in table Kommunikation - 4/6
+Compacting records in table Kommunikation - 5/6
+End Compacting records in table Kommunikation
+Compacting BLOBs in table Geschlecht on 0 elements
+End Compacting BLOBs in table Geschlecht
+Compacting records in table Geschlecht on 2 elements
+Compacting records in table Geschlecht - 0/2
+Compacting records in table Geschlecht - 1/2
+End Compacting records in table Geschlecht
+no errors found

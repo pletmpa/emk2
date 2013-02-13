@@ -16,6 +16,8 @@ function constructor (id) {
 	this.load = function (data) {// @lock
 
 	// @region namespaceDeclaration// @startlock
+	var personEvent = {};	// @dataSource
+	var geschlechtEvent = {};	// @dataSource
 	var combobox1 = {};	// @combobox
 	var imageButton6 = {};	// @buttonImage
 	var textField2 = {};	// @textField
@@ -24,6 +26,32 @@ function constructor (id) {
 	// @endregion// @endlock
 
 	// eventHandlers// @lock
+
+	personEvent.onCurrentElementChange = function personEvent_onCurrentElementChange (event)// @startlock
+	{// @endlock
+		component1_geschlecht.load({
+			onSuccess : function(e){
+				sources.component1_geschlecht.selectByKey(e.entity.getKey());
+				
+				/**
+				 * A flag used to tell to the "category" datasource that the event 'onCurrentElementChange'
+				 * came from the 'product' datasource event
+				 */
+				sources.component1_geschlecht._selectedFromPersonSrc = true;
+			}
+		});
+	};// @lock
+
+	geschlechtEvent.onCurrentElementChange = function geschlechtEvent_onCurrentElementChange (event)// @startlock
+	{// @endlock
+		if(source.component1_geschlecht._selectedFromPersonSrc){
+			source.component1_geschlecht._selectedFromPersonSrc = false;
+		}
+		else{
+			source.component1_person.geschlecht.set(this);
+			source.component1_person.save();
+		}
+	};// @lock
 
 	combobox1.change = function combobox1_change (event)// @startlock
 	{// @endlock
@@ -65,6 +93,8 @@ function constructor (id) {
 	};// @lock
 
 	// @region eventManager// @startlock
+	WAF.addListener(this.id + "_person", "onCurrentElementChange", personEvent.onCurrentElementChange, "WAF");
+	WAF.addListener(this.id + "_geschlecht", "onCurrentElementChange", geschlechtEvent.onCurrentElementChange, "WAF");
 	WAF.addListener(this.id + "_combobox1", "change", combobox1.change, "WAF");
 	WAF.addListener(this.id + "_imageButton6", "click", imageButton6.click, "WAF");
 	WAF.addListener(this.id + "_textField2", "keyup", textField2.keyup, "WAF");

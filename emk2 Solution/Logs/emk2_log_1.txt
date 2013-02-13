@@ -469,3 +469,247 @@
 2013-02-13 22:20:22 [com.wakanda-software.emk2.ServerAdmin] INFO - Closing the project
 2013-02-13 22:20:22 [com.wakanda-software.emk2.ServerAdmin] INFO - Project closed (duration: 1 ms)
 2013-02-13 22:20:22 [com.wakanda-software.emk2] INFO - Solution closed (duration: 849 ms)
+2013-02-13 23:02:02 [com.wakanda-software.emk2] INFO - Opening the solution
+2013-02-13 23:02:02 [com.wakanda-software.emk2] INFO - Opening the users and groups directory
+2013-02-13 23:02:02 [com.wakanda-software.emk2] INFO - Users and groups directory opened (duration: 9 ms)
+2013-02-13 23:02:02 [com.wakanda-software.emk2.emk2] INFO - Opening the project
+2013-02-13 23:02:02 [com.wakanda-software.emk2.emk2] INFO - Opening the database
+2013-02-13 23:02:02 [com.wakanda-software.emk2.emk2] INFO - Successfully opened journal
+2013-02-13 23:02:02 [com.wakanda-software.emk2.emk2] INFO - Database opened (duration: 18 ms)
+2013-02-13 23:02:02 [com.wakanda-software.emk2.emk2] INFO - Project opened (duration: 27 ms)
+2013-02-13 23:02:02 [com.wakanda-software.emk2.ServerAdmin] INFO - Opening the project
+2013-02-13 23:02:02 [com.wakanda-software.emk2.ServerAdmin] INFO - Project opened (duration: 5 ms)
+2013-02-13 23:02:02 [com.wakanda-software.emk2] INFO - Solution opened (duration: 64 ms)
+2013-02-13 23:02:02 [com.wakanda-software.emk2] INFO - Starting the solution
+2013-02-13 23:02:02 [com.wakanda-software.emk2.emk2] INFO - Starting the project
+2013-02-13 23:02:03 [com.wakanda-software.emk2.emk2] INFO - Starting the HTTP server
+2013-02-13 23:02:03 [com.wakanda-software.emk2.emk2] INFO - HTTP server started (duration: 21 ms)
+2013-02-13 23:02:03 [com.wakanda-software.emk2.emk2] INFO - Project started (duration: 58 ms)
+2013-02-13 23:02:03 [com.wakanda-software.emk2.ServerAdmin] INFO - Starting the project
+2013-02-13 23:02:03 [com.wakanda-software.emk2.ServerAdmin] INFO - Starting the HTTP server
+2013-02-13 23:02:03 [com.wakanda-software.emk2.ServerAdmin] INFO - HTTP server started (duration: 23 ms)
+2013-02-13 23:02:03 [com.wakanda-software.emk2.ServerAdmin] INFO - Project started (duration: 56 ms)
+2013-02-13 23:02:03 [com.wakanda-software.emk2.emk2] INFO - Executing the bootstrap(s)
+2013-02-13 23:02:03 [com.wakanda-software.emk2.emk2] INFO - Bootstrap(s) executed (duration: 275 ms)
+2013-02-13 23:02:03 [com.wakanda-software.emk2.ServerAdmin] INFO - Executing the bootstrap(s)
+2013-02-13 23:02:03 [com.wakanda-software.emk2.ServerAdmin] INFO - Bootstrap(s) executed (duration: 11 ms)
+2013-02-13 23:02:03 [com.wakanda-software.emk2] INFO - Solution started (duration: 403 ms)
+2013-02-13 23:07:09 [com.wakanda-software.emk2.emk2] INFO - Closing the database
+2013-02-13 23:07:09 [com.wakanda-software.emk2.emk2] INFO - Database closed (duration: 306 ms)
+2013-02-13 23:07:09 [com.wakanda-software.emk2.emk2] INFO - Opening the database
+2013-02-13 23:07:09 [com.wakanda-software.emk2.emk2] INFO - Successfully opened journal
+2013-02-13 23:07:09 [com.wakanda-software.emk2.emk2] INFO - Database opened (duration: 15 ms)
+2013-02-13 23:13:07 [com.wakanda-software.emk2.emk2] INFO - Closing the database
+2013-02-13 23:13:07 [com.wakanda-software.emk2.emk2] INFO - Database closed (duration: 408 ms)
+2013-02-13 23:13:07 [com.wakanda-software.emk2.emk2] INFO - Opening the database
+2013-02-13 23:13:07 [com.wakanda-software.emk2.emk2] INFO - Successfully opened journal
+2013-02-13 23:13:07 [com.wakanda-software.emk2.emk2] INFO - Database opened (duration: 15 ms)
+2013-02-13 23:18:16 [com.wakanda-software.emk2] INFO - Stopping the solution
+2013-02-13 23:18:16 [com.wakanda-software.emk2.emk2] INFO - Stopping the project
+2013-02-13 23:18:18 [com.wakanda-software.emk2.emk2] INFO - Project stopped (duration: 2048 ms)
+2013-02-13 23:18:18 [com.wakanda-software.emk2.ServerAdmin] INFO - Stopping the project
+2013-02-13 23:18:20 [com.wakanda-software.emk2.ServerAdmin] INFO - Project stopped (duration: 2047 ms)
+2013-02-13 23:18:20 [com.wakanda-software.emk2] INFO - Solution stopped (duration: 4096 ms)
+2013-02-13 23:18:20 [com.wakanda-software.emk2] INFO - Closing the solution
+2013-02-13 23:18:20 [com.wakanda-software.emk2.emk2] INFO - Closing the project
+2013-02-13 23:18:20 [com.wakanda-software.emk2.emk2] INFO - Closing the database
+2013-02-13 23:18:20 [com.wakanda-software.emk2.emk2] INFO - Database closed (duration: 405 ms)
+2013-02-13 23:18:20 [com.wakanda-software.emk2.emk2] INFO - Project closed (duration: 407 ms)
+2013-02-13 23:18:20 [com.wakanda-software.emk2.ServerAdmin] INFO - Closing the project
+2013-02-13 23:18:20 [com.wakanda-software.emk2.ServerAdmin] INFO - Project closed (duration: 0 ms)
+2013-02-13 23:18:20 [com.wakanda-software.emk2] INFO - Solution closed (duration: 813 ms)
+2013-02-13 23:19:11 [com.wakanda-software.emk2] INFO - Opening the solution
+2013-02-13 23:19:11 [com.wakanda-software.emk2] INFO - Opening the users and groups directory
+2013-02-13 23:19:11 [com.wakanda-software.emk2] INFO - Users and groups directory opened (duration: 8 ms)
+2013-02-13 23:19:11 [com.wakanda-software.emk2.emk2] INFO - Opening the project
+2013-02-13 23:19:11 [com.wakanda-software.emk2.emk2] INFO - Opening the database
+2013-02-13 23:19:11 [com.wakanda-software.emk2.emk2] INFO - Successfully opened journal
+2013-02-13 23:19:11 [com.wakanda-software.emk2.emk2] INFO - Database opened (duration: 10 ms)
+2013-02-13 23:19:11 [com.wakanda-software.emk2.emk2] INFO - Project opened (duration: 18 ms)
+2013-02-13 23:19:11 [com.wakanda-software.emk2.ServerAdmin] INFO - Opening the project
+2013-02-13 23:19:11 [com.wakanda-software.emk2.ServerAdmin] INFO - Project opened (duration: 4 ms)
+2013-02-13 23:19:11 [com.wakanda-software.emk2] INFO - Solution opened (duration: 54 ms)
+2013-02-13 23:19:11 [com.wakanda-software.emk2] INFO - Starting the solution
+2013-02-13 23:19:11 [com.wakanda-software.emk2.emk2] INFO - Starting the project
+2013-02-13 23:19:12 [com.wakanda-software.emk2.emk2] INFO - Starting the HTTP server
+2013-02-13 23:19:12 [com.wakanda-software.emk2.emk2] INFO - HTTP server started (duration: 22 ms)
+2013-02-13 23:19:12 [com.wakanda-software.emk2.emk2] INFO - Project started (duration: 59 ms)
+2013-02-13 23:19:12 [com.wakanda-software.emk2.ServerAdmin] INFO - Starting the project
+2013-02-13 23:19:12 [com.wakanda-software.emk2.ServerAdmin] INFO - Starting the HTTP server
+2013-02-13 23:19:12 [com.wakanda-software.emk2.ServerAdmin] INFO - HTTP server started (duration: 23 ms)
+2013-02-13 23:19:12 [com.wakanda-software.emk2.ServerAdmin] INFO - Project started (duration: 56 ms)
+2013-02-13 23:19:12 [com.wakanda-software.emk2.emk2] INFO - Executing the bootstrap(s)
+2013-02-13 23:19:12 [com.wakanda-software.emk2.emk2] INFO - Bootstrap(s) executed (duration: 283 ms)
+2013-02-13 23:19:12 [com.wakanda-software.emk2.ServerAdmin] INFO - Executing the bootstrap(s)
+2013-02-13 23:19:12 [com.wakanda-software.emk2.ServerAdmin] INFO - Bootstrap(s) executed (duration: 7 ms)
+2013-02-13 23:19:12 [com.wakanda-software.emk2] INFO - Solution started (duration: 407 ms)
+2013-02-13 23:23:28 [com.wakanda-software.emk2] INFO - Stopping the solution
+2013-02-13 23:23:28 [com.wakanda-software.emk2.emk2] INFO - Stopping the project
+2013-02-13 23:23:29 [com.wakanda-software.emk2.emk2] INFO - Project stopped (duration: 1048 ms)
+2013-02-13 23:23:29 [com.wakanda-software.emk2.ServerAdmin] INFO - Stopping the project
+2013-02-13 23:23:31 [com.wakanda-software.emk2.ServerAdmin] INFO - Project stopped (duration: 2047 ms)
+2013-02-13 23:23:31 [com.wakanda-software.emk2] INFO - Solution stopped (duration: 3095 ms)
+2013-02-13 23:23:31 [com.wakanda-software.emk2] INFO - Closing the solution
+2013-02-13 23:23:31 [com.wakanda-software.emk2.emk2] INFO - Closing the project
+2013-02-13 23:23:31 [com.wakanda-software.emk2.emk2] INFO - Closing the database
+2013-02-13 23:23:32 [com.wakanda-software.emk2.emk2] INFO - Database closed (duration: 406 ms)
+2013-02-13 23:23:32 [com.wakanda-software.emk2.emk2] INFO - Project closed (duration: 408 ms)
+2013-02-13 23:23:32 [com.wakanda-software.emk2.ServerAdmin] INFO - Closing the project
+2013-02-13 23:23:32 [com.wakanda-software.emk2.ServerAdmin] INFO - Project closed (duration: 1 ms)
+2013-02-13 23:23:32 [com.wakanda-software.emk2] INFO - Solution closed (duration: 816 ms)
+2013-02-13 23:33:34 [com.wakanda-software.emk2] INFO - Opening the solution
+2013-02-13 23:33:34 [com.wakanda-software.emk2] INFO - Opening the users and groups directory
+2013-02-13 23:33:34 [com.wakanda-software.emk2] INFO - Users and groups directory opened (duration: 9 ms)
+2013-02-13 23:33:34 [com.wakanda-software.emk2.emk2] INFO - Opening the project
+2013-02-13 23:33:34 [com.wakanda-software.emk2.emk2] INFO - Opening the database
+2013-02-13 23:33:34 [com.wakanda-software.emk2.emk2] INFO - Successfully opened journal
+2013-02-13 23:33:34 [com.wakanda-software.emk2.emk2] INFO - Database opened (duration: 10 ms)
+2013-02-13 23:33:34 [com.wakanda-software.emk2.emk2] INFO - Project opened (duration: 19 ms)
+2013-02-13 23:33:34 [com.wakanda-software.emk2.ServerAdmin] INFO - Opening the project
+2013-02-13 23:33:34 [com.wakanda-software.emk2.ServerAdmin] INFO - Project opened (duration: 4 ms)
+2013-02-13 23:33:34 [com.wakanda-software.emk2] INFO - Solution opened (duration: 55 ms)
+2013-02-13 23:33:34 [com.wakanda-software.emk2] INFO - Starting the solution
+2013-02-13 23:33:34 [com.wakanda-software.emk2.emk2] INFO - Starting the project
+2013-02-13 23:33:34 [com.wakanda-software.emk2.emk2] INFO - Starting the HTTP server
+2013-02-13 23:33:34 [com.wakanda-software.emk2.emk2] INFO - HTTP server started (duration: 22 ms)
+2013-02-13 23:33:34 [com.wakanda-software.emk2.emk2] INFO - Project started (duration: 60 ms)
+2013-02-13 23:33:34 [com.wakanda-software.emk2.ServerAdmin] INFO - Starting the project
+2013-02-13 23:33:34 [com.wakanda-software.emk2.ServerAdmin] INFO - Starting the HTTP server
+2013-02-13 23:33:34 [com.wakanda-software.emk2.ServerAdmin] INFO - HTTP server started (duration: 23 ms)
+2013-02-13 23:33:34 [com.wakanda-software.emk2.ServerAdmin] INFO - Project started (duration: 56 ms)
+2013-02-13 23:33:34 [com.wakanda-software.emk2.emk2] INFO - Executing the bootstrap(s)
+2013-02-13 23:33:35 [com.wakanda-software.emk2.emk2] INFO - Bootstrap(s) executed (duration: 262 ms)
+2013-02-13 23:33:35 [com.wakanda-software.emk2.ServerAdmin] INFO - Executing the bootstrap(s)
+2013-02-13 23:33:35 [com.wakanda-software.emk2.ServerAdmin] INFO - Bootstrap(s) executed (duration: 7 ms)
+2013-02-13 23:33:35 [com.wakanda-software.emk2] INFO - Solution started (duration: 388 ms)
+2013-02-13 23:51:07 [com.wakanda-software.emk2] INFO - Stopping the solution
+2013-02-13 23:51:07 [com.wakanda-software.emk2.emk2] INFO - Stopping the project
+2013-02-13 23:51:08 [com.wakanda-software.emk2.emk2] INFO - Project stopped (duration: 1056 ms)
+2013-02-13 23:51:08 [com.wakanda-software.emk2.ServerAdmin] INFO - Stopping the project
+2013-02-13 23:51:10 [com.wakanda-software.emk2.ServerAdmin] INFO - Project stopped (duration: 2054 ms)
+2013-02-13 23:51:10 [com.wakanda-software.emk2] INFO - Solution stopped (duration: 3111 ms)
+2013-02-13 23:51:10 [com.wakanda-software.emk2] INFO - Closing the solution
+2013-02-13 23:51:10 [com.wakanda-software.emk2.emk2] INFO - Closing the project
+2013-02-13 23:51:10 [com.wakanda-software.emk2.emk2] INFO - Closing the database
+2013-02-13 23:51:10 [com.wakanda-software.emk2.emk2] INFO - Database closed (duration: 406 ms)
+2013-02-13 23:51:10 [com.wakanda-software.emk2.emk2] INFO - Project closed (duration: 409 ms)
+2013-02-13 23:51:10 [com.wakanda-software.emk2.ServerAdmin] INFO - Closing the project
+2013-02-13 23:51:10 [com.wakanda-software.emk2.ServerAdmin] INFO - Project closed (duration: 1 ms)
+2013-02-13 23:51:10 [com.wakanda-software.emk2] INFO - Solution closed (duration: 818 ms)
+2013-02-13 23:52:12 [com.wakanda-software.emk2] INFO - Opening the solution
+2013-02-13 23:52:12 [com.wakanda-software.emk2] INFO - Opening the users and groups directory
+2013-02-13 23:52:12 [com.wakanda-software.emk2] INFO - Users and groups directory opened (duration: 6 ms)
+2013-02-13 23:52:12 [com.wakanda-software.emk2.emk2] INFO - Opening the project
+2013-02-13 23:52:12 [com.wakanda-software.emk2.emk2] INFO - Opening the database
+2013-02-13 23:52:12 [com.wakanda-software.emk2.emk2] INFO - Successfully opened journal
+2013-02-13 23:52:12 [com.wakanda-software.emk2.emk2] INFO - Database opened (duration: 10 ms)
+2013-02-13 23:52:12 [com.wakanda-software.emk2.emk2] INFO - Project opened (duration: 14 ms)
+2013-02-13 23:52:12 [com.wakanda-software.emk2.ServerAdmin] INFO - Opening the project
+2013-02-13 23:52:12 [com.wakanda-software.emk2.ServerAdmin] INFO - Project opened (duration: 4 ms)
+2013-02-13 23:52:12 [com.wakanda-software.emk2] INFO - Solution opened (duration: 49 ms)
+2013-02-13 23:52:12 [com.wakanda-software.emk2] INFO - Starting the solution
+2013-02-13 23:52:12 [com.wakanda-software.emk2.emk2] INFO - Starting the project
+2013-02-13 23:52:12 [com.wakanda-software.emk2.emk2] INFO - Starting the HTTP server
+2013-02-13 23:52:12 [com.wakanda-software.emk2.emk2] INFO - HTTP server started (duration: 23 ms)
+2013-02-13 23:52:12 [com.wakanda-software.emk2.emk2] INFO - Project started (duration: 55 ms)
+2013-02-13 23:52:12 [com.wakanda-software.emk2.ServerAdmin] INFO - Starting the project
+2013-02-13 23:52:12 [com.wakanda-software.emk2.ServerAdmin] INFO - Starting the HTTP server
+2013-02-13 23:52:12 [com.wakanda-software.emk2.ServerAdmin] INFO - HTTP server started (duration: 25 ms)
+2013-02-13 23:52:12 [com.wakanda-software.emk2.ServerAdmin] INFO - Project started (duration: 58 ms)
+2013-02-13 23:52:12 [com.wakanda-software.emk2.emk2] INFO - Executing the bootstrap(s)
+2013-02-13 23:52:12 [com.wakanda-software.emk2.emk2] INFO - Bootstrap(s) executed (duration: 30 ms)
+2013-02-13 23:52:12 [com.wakanda-software.emk2.ServerAdmin] INFO - Executing the bootstrap(s)
+2013-02-13 23:52:12 [com.wakanda-software.emk2.ServerAdmin] INFO - Bootstrap(s) executed (duration: 7 ms)
+2013-02-13 23:52:12 [com.wakanda-software.emk2] INFO - Solution started (duration: 153 ms)
+2013-02-13 23:55:52 [com.wakanda-software.emk2] INFO - Stopping the solution
+2013-02-13 23:55:52 [com.wakanda-software.emk2.emk2] INFO - Stopping the project
+2013-02-13 23:55:54 [com.wakanda-software.emk2.emk2] INFO - Project stopped (duration: 2052 ms)
+2013-02-13 23:55:54 [com.wakanda-software.emk2.ServerAdmin] INFO - Stopping the project
+2013-02-13 23:55:56 [com.wakanda-software.emk2.ServerAdmin] INFO - Project stopped (duration: 2047 ms)
+2013-02-13 23:55:56 [com.wakanda-software.emk2] INFO - Solution stopped (duration: 4099 ms)
+2013-02-13 23:55:56 [com.wakanda-software.emk2] INFO - Closing the solution
+2013-02-13 23:55:56 [com.wakanda-software.emk2.emk2] INFO - Closing the project
+2013-02-13 23:55:56 [com.wakanda-software.emk2.emk2] INFO - Closing the database
+2013-02-13 23:55:57 [com.wakanda-software.emk2.emk2] INFO - Database closed (duration: 405 ms)
+2013-02-13 23:55:57 [com.wakanda-software.emk2.emk2] INFO - Project closed (duration: 407 ms)
+2013-02-13 23:55:57 [com.wakanda-software.emk2.ServerAdmin] INFO - Closing the project
+2013-02-13 23:55:57 [com.wakanda-software.emk2.ServerAdmin] INFO - Project closed (duration: 0 ms)
+2013-02-13 23:55:57 [com.wakanda-software.emk2] INFO - Solution closed (duration: 814 ms)
+2013-02-13 23:57:08 [com.wakanda-software.emk2] INFO - Opening the solution
+2013-02-13 23:57:08 [com.wakanda-software.emk2] INFO - Opening the users and groups directory
+2013-02-13 23:57:09 [com.wakanda-software.emk2] INFO - Users and groups directory opened (duration: 8 ms)
+2013-02-13 23:57:09 [com.wakanda-software.emk2.emk2] INFO - Opening the project
+2013-02-13 23:57:09 [com.wakanda-software.emk2.emk2] INFO - Opening the database
+2013-02-13 23:57:09 [com.wakanda-software.emk2.emk2] INFO - Successfully opened journal
+2013-02-13 23:57:09 [com.wakanda-software.emk2.emk2] INFO - Database opened (duration: 9 ms)
+2013-02-13 23:57:09 [com.wakanda-software.emk2.emk2] INFO - Project opened (duration: 19 ms)
+2013-02-13 23:57:09 [com.wakanda-software.emk2.ServerAdmin] INFO - Opening the project
+2013-02-13 23:57:09 [com.wakanda-software.emk2.ServerAdmin] INFO - Project opened (duration: 4 ms)
+2013-02-13 23:57:09 [com.wakanda-software.emk2] INFO - Solution opened (duration: 55 ms)
+2013-02-13 23:57:09 [com.wakanda-software.emk2] INFO - Starting the solution
+2013-02-13 23:57:09 [com.wakanda-software.emk2.emk2] INFO - Starting the project
+2013-02-13 23:57:09 [com.wakanda-software.emk2.emk2] INFO - Starting the HTTP server
+2013-02-13 23:57:09 [com.wakanda-software.emk2.emk2] INFO - HTTP server started (duration: 23 ms)
+2013-02-13 23:57:09 [com.wakanda-software.emk2.emk2] INFO - Project started (duration: 61 ms)
+2013-02-13 23:57:09 [com.wakanda-software.emk2.ServerAdmin] INFO - Starting the project
+2013-02-13 23:57:09 [com.wakanda-software.emk2.ServerAdmin] INFO - Starting the HTTP server
+2013-02-13 23:57:09 [com.wakanda-software.emk2.ServerAdmin] INFO - HTTP server started (duration: 25 ms)
+2013-02-13 23:57:09 [com.wakanda-software.emk2.ServerAdmin] INFO - Project started (duration: 60 ms)
+2013-02-13 23:57:09 [com.wakanda-software.emk2.emk2] INFO - Executing the bootstrap(s)
+2013-02-13 23:57:09 [com.wakanda-software.emk2.emk2] INFO - Bootstrap(s) executed (duration: 265 ms)
+2013-02-13 23:57:09 [com.wakanda-software.emk2.ServerAdmin] INFO - Executing the bootstrap(s)
+2013-02-13 23:57:09 [com.wakanda-software.emk2.ServerAdmin] INFO - Bootstrap(s) executed (duration: 7 ms)
+2013-02-13 23:57:09 [com.wakanda-software.emk2] INFO - Solution started (duration: 396 ms)
+2013-02-14 00:19:08 [com.wakanda-software.emk2] INFO - Stopping the solution
+2013-02-14 00:19:08 [com.wakanda-software.emk2.emk2] INFO - Stopping the project
+2013-02-14 00:19:09 [com.wakanda-software.emk2.emk2] INFO - Project stopped (duration: 1050 ms)
+2013-02-14 00:19:09 [com.wakanda-software.emk2.ServerAdmin] INFO - Stopping the project
+2013-02-14 00:19:11 [com.wakanda-software.emk2.ServerAdmin] INFO - Project stopped (duration: 2047 ms)
+2013-02-14 00:19:11 [com.wakanda-software.emk2] INFO - Solution stopped (duration: 3098 ms)
+2013-02-14 00:19:11 [com.wakanda-software.emk2] INFO - Closing the solution
+2013-02-14 00:19:11 [com.wakanda-software.emk2.emk2] INFO - Closing the project
+2013-02-14 00:19:11 [com.wakanda-software.emk2.emk2] INFO - Closing the database
+2013-02-14 00:19:12 [com.wakanda-software.emk2.emk2] INFO - Database closed (duration: 407 ms)
+2013-02-14 00:19:12 [com.wakanda-software.emk2.emk2] INFO - Project closed (duration: 408 ms)
+2013-02-14 00:19:12 [com.wakanda-software.emk2.ServerAdmin] INFO - Closing the project
+2013-02-14 00:19:12 [com.wakanda-software.emk2.ServerAdmin] INFO - Project closed (duration: 1 ms)
+2013-02-14 00:19:12 [com.wakanda-software.emk2] INFO - Solution closed (duration: 816 ms)
+2013-02-14 00:20:56 [com.wakanda-software.emk2] INFO - Opening the solution
+2013-02-14 00:20:56 [com.wakanda-software.emk2] INFO - Opening the users and groups directory
+2013-02-14 00:20:56 [com.wakanda-software.emk2] INFO - Users and groups directory opened (duration: 8 ms)
+2013-02-14 00:20:56 [com.wakanda-software.emk2.emk2] INFO - Opening the project
+2013-02-14 00:20:56 [com.wakanda-software.emk2.emk2] INFO - Opening the database
+2013-02-14 00:20:56 [com.wakanda-software.emk2.emk2] INFO - Successfully opened journal
+2013-02-14 00:20:56 [com.wakanda-software.emk2.emk2] INFO - Database opened (duration: 9 ms)
+2013-02-14 00:20:56 [com.wakanda-software.emk2.emk2] INFO - Project opened (duration: 18 ms)
+2013-02-14 00:20:56 [com.wakanda-software.emk2.ServerAdmin] INFO - Opening the project
+2013-02-14 00:20:56 [com.wakanda-software.emk2.ServerAdmin] INFO - Project opened (duration: 4 ms)
+2013-02-14 00:20:56 [com.wakanda-software.emk2] INFO - Solution opened (duration: 53 ms)
+2013-02-14 00:20:56 [com.wakanda-software.emk2] INFO - Starting the solution
+2013-02-14 00:20:56 [com.wakanda-software.emk2.emk2] INFO - Starting the project
+2013-02-14 00:20:56 [com.wakanda-software.emk2.emk2] INFO - Starting the HTTP server
+2013-02-14 00:20:56 [com.wakanda-software.emk2.emk2] INFO - HTTP server started (duration: 21 ms)
+2013-02-14 00:20:56 [com.wakanda-software.emk2.emk2] INFO - Project started (duration: 58 ms)
+2013-02-14 00:20:56 [com.wakanda-software.emk2.ServerAdmin] INFO - Starting the project
+2013-02-14 00:20:56 [com.wakanda-software.emk2.ServerAdmin] INFO - Starting the HTTP server
+2013-02-14 00:20:56 [com.wakanda-software.emk2.ServerAdmin] INFO - HTTP server started (duration: 23 ms)
+2013-02-14 00:20:56 [com.wakanda-software.emk2.ServerAdmin] INFO - Project started (duration: 56 ms)
+2013-02-14 00:20:56 [com.wakanda-software.emk2.emk2] INFO - Executing the bootstrap(s)
+2013-02-14 00:20:57 [com.wakanda-software.emk2.emk2] INFO - Bootstrap(s) executed (duration: 273 ms)
+2013-02-14 00:20:57 [com.wakanda-software.emk2.ServerAdmin] INFO - Executing the bootstrap(s)
+2013-02-14 00:20:57 [com.wakanda-software.emk2.ServerAdmin] INFO - Bootstrap(s) executed (duration: 7 ms)
+2013-02-14 00:20:57 [com.wakanda-software.emk2] INFO - Solution started (duration: 396 ms)
+2013-02-14 00:26:03 [com.wakanda-software.emk2] INFO - Stopping the solution
+2013-02-14 00:26:03 [com.wakanda-software.emk2.emk2] INFO - Stopping the project
+2013-02-14 00:26:04 [com.wakanda-software.emk2.emk2] INFO - Project stopped (duration: 1047 ms)
+2013-02-14 00:26:04 [com.wakanda-software.emk2.ServerAdmin] INFO - Stopping the project
+2013-02-14 00:26:06 [com.wakanda-software.emk2.ServerAdmin] INFO - Project stopped (duration: 2047 ms)
+2013-02-14 00:26:06 [com.wakanda-software.emk2] INFO - Solution stopped (duration: 3095 ms)
+2013-02-14 00:26:06 [com.wakanda-software.emk2] INFO - Closing the solution
+2013-02-14 00:26:06 [com.wakanda-software.emk2.emk2] INFO - Closing the project
+2013-02-14 00:26:06 [com.wakanda-software.emk2.emk2] INFO - Closing the database
+2013-02-14 00:26:06 [com.wakanda-software.emk2.emk2] INFO - Database closed (duration: 405 ms)
+2013-02-14 00:26:06 [com.wakanda-software.emk2.emk2] INFO - Project closed (duration: 407 ms)
+2013-02-14 00:26:06 [com.wakanda-software.emk2.ServerAdmin] INFO - Closing the project
+2013-02-14 00:26:06 [com.wakanda-software.emk2.ServerAdmin] INFO - Project closed (duration: 1 ms)
+2013-02-14 00:26:07 [com.wakanda-software.emk2] INFO - Solution closed (duration: 815 ms)
