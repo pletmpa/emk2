@@ -11,12 +11,13 @@ function constructor (id) {
 	this.name = 'main_personen';
 	// @endregion// @endlock
 
-		kommArray = [];
-		geschlechtArray = [];
+		
 		
 	this.load = function (data) {// @lock
 
 	// @region namespaceDeclaration// @startlock
+	var combobox1 = {};	// @combobox
+	var imageButton6 = {};	// @buttonImage
 	var textField2 = {};	// @textField
 	var textField1 = {};	// @textField
 	var dataGrid1 = {};	// @dataGrid
@@ -24,28 +25,38 @@ function constructor (id) {
 
 	// eventHandlers// @lock
 
-		kommArray.push({art: 'Telefon' , id: 'T'});
-		kommArray.push({art: 'Mobile', id: 'M'});
-		kommArray.push({art: 'Fax', id: 'F'});
-		kommArray.push({art: 'Telefon geschäftlich', id: 'TG'});
-		kommArray.push({art: 'Telefon sonstiges', id: 'S'});
-		
-		source.kommArray.sync();
-		
-		geschlechtArray.push({geschlecht: 'männlich' , id: 'm'});
-		geschlechtArray.push({geschlecht: 'weiblich' , id: 'w'});
-		source.geschlechtArray.sync();
+	combobox1.change = function combobox1_change (event)// @startlock
+	{// @endlock
+		source.component1_person.save();
+	};// @lock
+
+	imageButton6.click = function imageButton6_click (event)// @startlock
+	{// @endlock
+		source.component1_person.save();
+	};// @lock
+
+//		kommArray.push({art: 'Telefon' , id: 'T'});
+//		kommArray.push({art: 'Mobile', id: 'M'});
+//		kommArray.push({art: 'Fax', id: 'F'});
+//		kommArray.push({art: 'Telefon geschäftlich', id: 'TG'});
+//		kommArray.push({art: 'Telefon sonstiges', id: 'S'});
+//		
+//		source.kommArray.sync();
+//		
+//		geschlechtArray.push({geschlecht: 'männlich' , id: 'm'});
+//		geschlechtArray.push({geschlecht: 'weiblich' , id: 'w'});
+//		source.geschlechtArray.sync();
 		
 	textField2.keyup = function textField2_keyup (event)// @startlock
 	{// @endlock
-		var theName = $$("queryName").getValue();
-		source.personen.query('name = :1 order by name', {params : [theName + '*']});
+		
+		source.component1_person.query('name = :1 order by name', {params : [$$('queryName') + '*']});
 	};// @lock
 
 	textField1.keyup = function textField1_keyup (event)// @startlock
 	{// @endlock
-		var theName = $$("queryOrg").getValue();
-		source.personen.query('organisation = :1 order by name', {params : [theName + '*']});
+		
+		source.component1_person.query('organisation = :1 order by name', {params : [$$('queryOerg')+ '*']});
 	};// @lock
 
 	dataGrid1.onRowDblClick = function dataGrid1_onRowDblClick (event)// @startlock
@@ -54,6 +65,8 @@ function constructor (id) {
 	};// @lock
 
 	// @region eventManager// @startlock
+	WAF.addListener(this.id + "_combobox1", "change", combobox1.change, "WAF");
+	WAF.addListener(this.id + "_imageButton6", "click", imageButton6.click, "WAF");
 	WAF.addListener(this.id + "_textField2", "keyup", textField2.keyup, "WAF");
 	WAF.addListener(this.id + "_textField1", "keyup", textField1.keyup, "WAF");
 	WAF.addListener(this.id + "_dataGrid1", "onRowDblClick", dataGrid1.onRowDblClick, "WAF");
