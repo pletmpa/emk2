@@ -60,7 +60,18 @@ function constructor (id) {
 
 	imageButton6.click = function imageButton6_click (event)// @startlock
 	{// @endlock
-		source.component1_person.save();
+		source.component1_person.save({
+			 onSuccess: function (event){
+                //handle successful save
+            sources.component1_person.addEntity(sources.component1_person.getCurrentElement()); 
+        },
+        onError: function(event){ 
+                // an error occurred
+                // display the top-level error message in the Display Error widget
+            $$('salesVolume').setErrorMessage({message: event.error[0].message, tooltip: true});
+            }
+		}
+		);
 	};// @lock
 
 //		kommArray.push({art: 'Telefon' , id: 'T'});
