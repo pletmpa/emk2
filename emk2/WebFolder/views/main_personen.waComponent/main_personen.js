@@ -16,16 +16,26 @@ function constructor (id) {
 	this.load = function (data) {// @lock
 
 	// @region namespaceDeclaration// @startlock
+	var nameFilter = {};	// @textField
+	var orgFilter = {};	// @textField
 	var personEvent = {};	// @dataSource
 	var geschlechtEvent = {};	// @dataSource
 	var combobox1 = {};	// @combobox
 	var imageButton6 = {};	// @buttonImage
-	var textField2 = {};	// @textField
-	var textField1 = {};	// @textField
 	var dataGrid1 = {};	// @dataGrid
 	// @endregion// @endlock
 
 	// eventHandlers// @lock
+
+	nameFilter.keyup = function nameFilter_keyup (event)// @startlock
+	{// @endlock
+		source.component1_person.query('name= :1', $$('component1_nameFilter').getValue() + '*');
+	};// @lock
+
+	orgFilter.keyup = function orgFilter_keyup (event)// @startlock
+	{// @endlock
+		source.component1_person.query('organisation= :1', $$('component1_orgFilter').getValue() + '*');
+	};// @lock
 
 	personEvent.onCurrentElementChange = function personEvent_onCurrentElementChange (event)// @startlock
 	{// @endlock
@@ -86,17 +96,6 @@ function constructor (id) {
 //		geschlechtArray.push({geschlecht: 'weiblich' , id: 'w'});
 //		source.geschlechtArray.sync();
 		
-	textField2.keyup = function textField2_keyup (event)// @startlock
-	{// @endlock
-		
-		source.component1_person.query('name = :1 order by name', {params : [$$('queryName') + '*']});
-	};// @lock
-
-	textField1.keyup = function textField1_keyup (event)// @startlock
-	{// @endlock
-		
-		source.component1_person.query('organisation = :1 order by name', {params : [$$('queryOerg')+ '*']});
-	};// @lock
 
 	dataGrid1.onRowDblClick = function dataGrid1_onRowDblClick (event)// @startlock
 	{// @endlock
@@ -104,12 +103,12 @@ function constructor (id) {
 	};// @lock
 
 	// @region eventManager// @startlock
+	WAF.addListener(this.id + "_nameFilter", "keyup", nameFilter.keyup, "WAF");
+	WAF.addListener(this.id + "_orgFilter", "keyup", orgFilter.keyup, "WAF");
 	WAF.addListener(this.id + "_person", "onCurrentElementChange", personEvent.onCurrentElementChange, "WAF");
 	WAF.addListener(this.id + "_geschlecht", "onCurrentElementChange", geschlechtEvent.onCurrentElementChange, "WAF");
 	WAF.addListener(this.id + "_combobox1", "change", combobox1.change, "WAF");
 	WAF.addListener(this.id + "_imageButton6", "click", imageButton6.click, "WAF");
-	WAF.addListener(this.id + "_textField2", "keyup", textField2.keyup, "WAF");
-	WAF.addListener(this.id + "_textField1", "keyup", textField1.keyup, "WAF");
 	WAF.addListener(this.id + "_dataGrid1", "onRowDblClick", dataGrid1.onRowDblClick, "WAF");
 	// @endregion// @endlock
 
