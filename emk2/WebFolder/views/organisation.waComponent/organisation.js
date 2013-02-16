@@ -13,11 +13,17 @@ function constructor (id) {
 	this.load = function (data) {// @lock
 
 	// @region namespaceDeclaration// @startlock
+	var persFilter = {};	// @textField
 	var orgFilter = {};	// @textField
 	var dataGrid1 = {};	// @dataGrid
 	// @endregion// @endlock
 
 	// eventHandlers// @lock
+
+	persFilter.keyup = function persFilter_keyup (event)// @startlock
+	{// @endlock
+		source.component1_person.query('name= :1', $$('component1_persFilter').getValue() + '*');
+	};// @lock
 
 	orgFilter.keyup = function orgFilter_keyup (event)// @startlock
 	{// @endlock
@@ -30,6 +36,7 @@ function constructor (id) {
 	};// @lock
 
 	// @region eventManager// @startlock
+	WAF.addListener(this.id + "_persFilter", "keyup", persFilter.keyup, "WAF");
 	WAF.addListener(this.id + "_orgFilter", "keyup", orgFilter.keyup, "WAF");
 	WAF.addListener(this.id + "_dataGrid1", "onRowDblClick", dataGrid1.onRowDblClick, "WAF");
 	// @endregion// @endlock

@@ -1,0 +1,6 @@
+﻿{
+    "name"    : "admin",    
+    "html"    : "admin.html",
+    "styles"  : ["admin.css"],
+    "scripts" : ["admin.js"]
+}
