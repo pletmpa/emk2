@@ -19,7 +19,6 @@ function constructor (id) {
 	var nameFilter = {};	// @textField
 	var orgFilter = {};	// @textField
 	var personEvent = {};	// @dataSource
-	var geschlechtEvent = {};	// @dataSource
 	var combobox1 = {};	// @combobox
 	var imageButton6 = {};	// @buttonImage
 	var dataGrid1 = {};	// @dataGrid
@@ -39,28 +38,7 @@ function constructor (id) {
 
 	personEvent.onCurrentElementChange = function personEvent_onCurrentElementChange (event)// @startlock
 	{// @endlock
-		component1_geschlecht.load({
-			onSuccess : function(e){
-				sources.component1_geschlecht.selectByKey(e.entity.getKey());
-				
-				/**
-				 * A flag used to tell to the "category" datasource that the event 'onCurrentElementChange'
-				 * came from the 'product' datasource event
-				 */
-				sources.component1_geschlecht._selectedFromPersonSrc = true;
-			}
-		});
-	};// @lock
-
-	geschlechtEvent.onCurrentElementChange = function geschlechtEvent_onCurrentElementChange (event)// @startlock
-	{// @endlock
-		if(source.component1_geschlecht._selectedFromPersonSrc){
-			source.component1_geschlecht._selectedFromPersonSrc = false;
-		}
-		else{
-			source.component1_person.geschlecht.set(this);
-			source.component1_person.save();
-		}
+	
 	};// @lock
 
 	combobox1.change = function combobox1_change (event)// @startlock
@@ -72,9 +50,10 @@ function constructor (id) {
 	{// @endlock
 		source.component1_person.save({
 			 onSuccess: function (event){
-                //handle successful save
-            sources.component1_person.addEntity(sources.component1_person.getCurrentElement()); 
-        },
+                //handle successful save##
+                
+            sources.component1_person.serverRefresh(); 
+       		 },
         onError: function(event){ 
                 // an error occurred
                 // display the top-level error message in the Display Error widget
@@ -106,7 +85,6 @@ function constructor (id) {
 	WAF.addListener(this.id + "_nameFilter", "keyup", nameFilter.keyup, "WAF");
 	WAF.addListener(this.id + "_orgFilter", "keyup", orgFilter.keyup, "WAF");
 	WAF.addListener(this.id + "_person", "onCurrentElementChange", personEvent.onCurrentElementChange, "WAF");
-	WAF.addListener(this.id + "_geschlecht", "onCurrentElementChange", geschlechtEvent.onCurrentElementChange, "WAF");
 	WAF.addListener(this.id + "_combobox1", "change", combobox1.change, "WAF");
 	WAF.addListener(this.id + "_imageButton6", "click", imageButton6.click, "WAF");
 	WAF.addListener(this.id + "_dataGrid1", "onRowDblClick", dataGrid1.onRowDblClick, "WAF");
