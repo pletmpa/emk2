@@ -1,1 +1,1 @@
-﻿//this is our bootstrap file. It runs when we launch the server.// Activate our export request handler on the server.addHttpRequestHandler('/exportPersons', 'requestHandlers.js', 'exportPersons');// Backup on startuo for developmentvar manifest = ds.backup();  
+﻿//this is our bootstrap file. It runs when we launch the server.// Activate our export request handler on the server.addHttpRequestHandler('/exportPersons', 'requestHandlers.js', 'exportPersons');// Backup on startuo for development//var manifest = ds.backup();  
