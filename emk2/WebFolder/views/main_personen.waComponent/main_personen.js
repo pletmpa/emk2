@@ -19,7 +19,6 @@ function constructor (id) {
 	var nameFilter = {};	// @textField
 	var orgFilter = {};	// @textField
 	var personEvent = {};	// @dataSource
-	var combobox1 = {};	// @combobox
 	var imageButton6 = {};	// @buttonImage
 	var dataGrid1 = {};	// @dataGrid
 	// @endregion// @endlock
@@ -39,11 +38,6 @@ function constructor (id) {
 	personEvent.onCurrentElementChange = function personEvent_onCurrentElementChange (event)// @startlock
 	{// @endlock
 	
-	};// @lock
-
-	combobox1.change = function combobox1_change (event)// @startlock
-	{// @endlock
-		source.component1_person.save();
 	};// @lock
 
 	imageButton6.click = function imageButton6_click (event)// @startlock
@@ -85,7 +79,6 @@ function constructor (id) {
 	WAF.addListener(this.id + "_nameFilter", "keyup", nameFilter.keyup, "WAF");
 	WAF.addListener(this.id + "_orgFilter", "keyup", orgFilter.keyup, "WAF");
 	WAF.addListener(this.id + "_person", "onCurrentElementChange", personEvent.onCurrentElementChange, "WAF");
-	WAF.addListener(this.id + "_combobox1", "change", combobox1.change, "WAF");
 	WAF.addListener(this.id + "_imageButton6", "click", imageButton6.click, "WAF");
 	WAF.addListener(this.id + "_dataGrid1", "onRowDblClick", dataGrid1.onRowDblClick, "WAF");
 	// @endregion// @endlock
